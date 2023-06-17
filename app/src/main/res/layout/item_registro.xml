@@ -1,0 +1,63 @@
+<!-- item_registro.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewObra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obra"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etObra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome da obra"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewDonoObra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dono de Obra"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etDonoObra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome do dono de obra"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewEntidadeExecutante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entidade Executante"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etEntidadeExecutante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome da entidade executante"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnSeguinte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seguinte"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Empresa" />
+
+    <EditText
+        android:id="@+id/editTextEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewFuncao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Função" />
+
+    <EditText
+        android:id="@+id/editTextFuncao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:id="@+id/intervenientesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Campos adicionais serão adicionados aqui dinamicamente -->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAdicionarInterveniente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Interveniente" />
+
+    <Button
+        android:id="@+id/btnRemoverInterveniente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remover Interveniente" />
+
+</LinearLayout>
